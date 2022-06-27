@@ -35,7 +35,7 @@
   <!-- CSS Files -->
   <link id="pagestyle" href="./assets/css/material-dashboard.css?v=3.0.3" rel="stylesheet" />
 </head>
-
+  
 <body class="g-sidenav-show  bg-gray-200">
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
     <div class="sidenav-header">
@@ -254,6 +254,7 @@
       </div>
     </div>
   </div>
+ 
   <!--   Core JS Files   -->
   <script src="./assets/js/core/popper.min.js"></script>
   <script src="./assets/js/core/bootstrap.min.js"></script>
