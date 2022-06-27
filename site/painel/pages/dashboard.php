@@ -104,6 +104,39 @@
     </div>
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+          <div class="col-lg-4 col-md-8 col-12 mx-auto">
+          
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2"> 
+            <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">  
+              <h2 class="text-white font-weight-bolder text-center mt-2 mb-0">psychofreak</h2>
+          </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <h2 class= "text-center">ALUNOS</h2>
+          <div class="input-group input-group-outline my-3">
+            <div class= "card-body">
+              <div class="text-center">
+              <a href="../pages/tables.php"> 
+              <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2">CONFERIR</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <h2 class= "text-center">CURSOS</h2>
+          <div class="input-group input-group-outline my-3">
+            <div class= "card-body">
+              <div class="text-center">
+              <a href="../pages/cursos.php">
+              <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2">CONFERIR</button>
+              </a>
+              </div>
+            </div>
+          </div>    
+  </main>
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
 
       <footer class="footer py-4  ">
@@ -116,9 +149,10 @@
                 </script>,
                 made with <i class="fa fa-heart"></i> by
                 <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
-                for a better web.
+               
               </div>
             </div>
+            <br>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
@@ -140,6 +174,7 @@
       </footer>
     </div>
   </main>
+  
   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
       <i class="material-icons py-2">settings</i>
@@ -480,6 +515,9 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/material-dashboard.min.js?v=3.0.3"></script>
+  <?php
+    include_once 'menu.php';
+  ?>
 </body>
 
 </html>
